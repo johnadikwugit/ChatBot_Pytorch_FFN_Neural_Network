@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hey there",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Morning",
+        "Hiya"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","Cheers", "Thank you", "That's helpful", "Thank's a lot!","ok"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "Which items do you have?",
+        "Which product do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We offer limited customer service on the Tesla car brand. Model Y001, Model S001 and Model X001",
+        "List of our products are:Model Y001, Model S001 and Model X001"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "best way to order",
+        "Tell me about order process",
+        "How can I order a car?",
+        "I want to buy a car",
+        "How can I buy a car"
+      ],
+      "responses": [
+        "Please Call to our Customer Service: 02352142365",
+        "Fill Order form in our Website: WWW.Tesla.Com"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 14-21 days",
+        "Shipping takes 14-21 days",
+        "Delivery takes 2-3 weeks"
+      ]
+    },
+    {
+      "tag": "Model Y001",
+      "patterns": [
+        "Tell me about the Tesla Model Y001",
+        "What are the features of Model Y001",
+        "Y001"
+      ],
+      "responses": [
+        "\n-RRP: From £51,000\n-Dimensions   4,751-4,775 mm L x 1,850-1,921 mm W x 1,600-1,624 mm H\n-Towing capacity   1,588 kg\n-Warranty   4 yr/unlimited mi\n-Cargo volume   971 L, 2,158 L with seat area\n-Horsepower   255 to 393 kW"
+      ]
+    },
+    {
+      "tag": "Model S001",
+      "patterns": [
+        "Tell me about the Tesla Model S001",
+        "What are the features of Model S001",
+        "S001"
+      ],
+      "responses": [
+        "\n-RRP: From £94,990\n-Dimensions   5,021 mm L x 1,987 mm W x 1,431 mm H\n-Towing capacity   1,488 kg\n-Warranty   4 yr/unlimited mi\n-Cargo volume   709 L, 1,739 L with seat area\n-Horsepower   493 to 750 kW"
+      ]
+    },
+    {
+      "tag": "Model X001",
+      "patterns": [
+        "Tell me about the Tesla Model X001",
+        "What are the features of Model X001",
+        "X001"
+      ],
+      "responses": [
+        "\n-RRP: From £101,990\n-Dimensions   4,821 mm L x 1,907 mm W x 1,331 mm H\n-Towing capacity   1,508 kg\n-Warranty   4 yr/unlimited mi\n-Cargo volume   2,487 L with seat area\n-Horsepower   155.3 to 162.8 mph"
+      ]
+    }
+  ]
+}
